@@ -1,8 +1,7 @@
 flask
 numpy
 pandas
-# [Scientific Core]
-# Scikit-learn, XGBoost, and SHAP are dynamically loaded 
-# for pharmacological high-precision locally.
-# Vercel Runtime: ToxiGuard Heuristic Analyzer Active.
 google-generativeai
+# [Scientific Architecture]
+# Scientific logic is dynamically handled via the 
+# ToxiGuard Resilience Layer in serverless contexts.
