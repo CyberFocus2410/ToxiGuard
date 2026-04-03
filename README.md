@@ -32,18 +32,6 @@ graph TD
 
 ---
 
-## 🖼️ Application Screenshots
-
-````carousel
-![ToxiGuard Hero Main](file:///c:/Users/User/Documents/STARTING%20PROJECTS/DrugToxicityPredictor/artifacts/hero.png)
-<!-- slide -->
-![ToxiGuard Detailed Analysis](file:///c:/Users/User/Documents/STARTING%20PROJECTS/DrugToxicityPredictor/artifacts/analysis.png)
-<!-- slide -->
-![ToxiGuard Model Analytics](file:///c:/Users/User/Documents/STARTING%20PROJECTS/DrugToxicityPredictor/artifacts/analytics.png)
-````
-
----
-
 ## 🚀 Key Performance Indicators (KPIs)
 Trained on the **Tox21 Library** (7,831 compounds).
 
@@ -133,5 +121,3 @@ Executes a high-resolution molecular scan.
 
 ---
 
-Built for the **Molecular Innovation Hackathon 2026**.
-Powered by **ToxiGuard AI** & **Antigravity**.
