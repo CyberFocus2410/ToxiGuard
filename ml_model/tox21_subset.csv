@@ -1,0 +1,11 @@
+smiles,toxicity
+CCO,0
+c1ccccc1,1
+CC(=O)OC1=CC=CC=C1C(=O)O,0
+CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+CC(C)(C)c1ccc(cc1)C(=O)Nc2ccc(cc2)S(=O)(=O)N,1
+O=C(O)C1=CC=CC=C1,0
+C1=CC=C(C=C1)C(=O)O,0
+C1=CC=C(C=C1)N,1
+CC1=CC=C(C=C1)S(=O)(=O)N,0
+ClC1=CC=C(C=C1)Cl,1

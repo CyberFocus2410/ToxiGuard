@@ -1,0 +1,25 @@
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Models & Data (Keep processed CSVs if small, exclude binary pickles)
+ml_model/models/
+*.pkl
+backend/models/
+*.gz
+backend/tox21.csv
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
