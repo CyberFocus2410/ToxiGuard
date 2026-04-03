@@ -1,5 +1,4 @@
-# CodeCure Drug Toxicity Prediction - Complete Webapp Guide
-## Building with Claude AI Studio + Antigravity
+#ToxiGuard-Drug Toxicity Prediction - Complete Webapp Guide
 
 ---
 
@@ -53,7 +52,7 @@ You'll build a **production-ready, full-stack application** that combines:
 
 ---
 
-## PHASE 1: Setup & Project Structure (Day 1 - Morning)
+## PHASE 1: Setup & Project Structure
 
 ### Step 1.1: Create Antigravity Backend
 1. Sign up at **antigravity.dev**
@@ -95,7 +94,7 @@ Use Claude for:
 
 ---
 
-## PHASE 2: ML Pipeline Development (Day 1 - Afternoon)
+## PHASE 2: ML Pipeline Development
 
 ### Step 2.1: Use Claude API to Generate ML Pipeline
 
@@ -179,7 +178,7 @@ def predict_toxicity(smiles_string, model, scaler, feature_names):
 
 ---
 
-## PHASE 3: Frontend Development (Day 1 - Late Evening / Day 2 - Morning)
+## PHASE 3: Frontend Development
 
 ### Step 3.1: Create React Component
 
@@ -354,7 +353,7 @@ function FeatureImportanceChart({ data }) {
 
 ---
 
-## PHASE 4: Integration Setup (Day 2 - Afternoon)
+## PHASE 4: Integration Setup
 
 ### Step 4.1: Antigravity API Endpoint Configuration
 
@@ -420,7 +419,7 @@ def generate_interpretation(prediction_result):
 
 ---
 
-## PHASE 5: Deployment & Testing (Day 2 - Evening)
+## PHASE 5: Deployment & Testing 
 
 ### Step 5.1: Deploy Frontend
 Options:
@@ -451,7 +450,7 @@ try {
 
 ---
 
-## PHASE 6: Hackathon Submission Prep (Day 2 - Late Evening)
+## PHASE 6: Hackathon Submission Prep 
 
 ### Step 6.1: Documentation
 Create `README.md` with:
@@ -469,15 +468,6 @@ Prepare 5 test cases:
 4. **Drug example**: Aspirin or Ibuprofen
 5. **Edge case**: Very large molecule
 
-### Step 6.3: Create Presentation
-Show judges:
-1. **Problem**: Why toxicity prediction matters
-2. **Solution**: Your architecture + Claude/Antigravity integration
-3. **Model Performance**: Accuracy, F1 score (target 85%+)
-4. **Live Demo**: Real prediction on stage
-5. **Biological Insights**: What the model learned about drug toxicity
-6. **Impact**: How many failed compounds could be caught early
-
 ---
 
 ## Key Success Metrics for Judges
@@ -492,43 +482,4 @@ Show judges:
 | Code Quality | Clean, documented | Hackathon best practices |
 
 ---
-
-## Timeline Summary
-
-| When | What | Deliverable |
-|------|------|-------------|
-| Day 1 - 8am | Antigravity backend setup | Database + 3 API endpoints |
-| Day 1 - 12pm | Claude ML code generation | Python pipeline + model.pkl |
-| Day 1 - 6pm | Frontend development | React prediction interface |
-| Day 1 - 11pm | Integration testing | End-to-end flow working |
-| Day 2 - 10am | Dashboard + visualizations | Feature importance charts |
-| Day 2 - 2pm | Claude API interpretation | Biological explanations |
-| Day 2 - 6pm | Testing + bug fixes | Polished, production-ready |
-| Day 2 - 9pm | Documentation + slides | README + presentation |
-
----
-
-## Pro Tips for Winning
-
-✅ **Focus on insights, not code** - Judges care more about biological findings than perfect code
-
-✅ **Use Claude for explanations** - Generate readable insights from raw predictions
-
-✅ **Make the demo interactive** - Live predictions on stage are memorable
-
-✅ **Document everything** - Well-documented code shows professionalism
-
-✅ **Emphasize real-world impact** - "Could save $1M per failed compound" is compelling
-
-✅ **Show feature importance** - SHAP values prove you understand what the model learned
-
----
-
-## Questions to Prepare Answers For
-
-1. **Why XGBoost over neural networks?** → Faster training, better interpretability, SHAP compatible
-2. **How did you validate the model?** → 5-fold cross-validation, test set performance
-3. **What's the false positive rate?** → Important for drug development
-4. **Can the model handle unseen chemical scaffolds?** → Discuss generalization
-5. **How would you deploy this in a real pharma company?** → Discuss scalability with Antigravity
 
