@@ -82,6 +82,19 @@ python process_data.py   # Downloads and unzips 7.8k Tox21 rows
 python export_model.py    # Trains and serializes XGBoost model
 ```
 
+---
+
+## ☁️ Hosting on Vercel (One-Click)
+ToxiGuard is optimized for **Vercel Serverless Architecture**.
+
+1. **Connect GitHub**: Import your [ToxiGuard Repository](https://github.com/CyberFocus2410/ToxiGuard) to Vercel.
+2. **Environment Variables**: Add your `ANTHROPIC_API_KEY` in the Vercel Dashboard Settings.
+3. **Automatic Deployment**: ToxiGuard's `vercel.json` and `/api` folder will automatically coordinate:
+   -   **Frontend**: React static build from `/frontend`.
+   -   **Backend**: Python serverless functions from `/api`.
+
+No separate backend server is required! ⚡
+
 ### 2. Backend Orchestration
 ```bash
 cd backend

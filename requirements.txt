@@ -1,0 +1,10 @@
+flask
+numpy
+pandas
+scikit-learn
+xgboost
+shap
+anthropic
+# For scientific libraries, Vercel might need conda-build OR we can use
+# the standard 'rdkit-pypi' (though sometimes tricky, so we'll have a fallback)
+rdkit-pypi
