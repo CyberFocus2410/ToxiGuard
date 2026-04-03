@@ -10,11 +10,17 @@ except ImportError:
 
 try:
     from xgboost import XGBClassifier
-    import shap
-    HAS_ML = True
+    HAS_XGB = True
 except ImportError:
-    HAS_ML = False
-    print("Warning: xgboost/shap missing. ML mode disabled.")
+    HAS_XGB = False
+
+try:
+    import shap
+    HAS_SHAP = True
+except ImportError:
+    HAS_SHAP = False
+
+HAS_ML = HAS_XGB and HAS_SHAP
 
 try:
     from rdkit import Chem

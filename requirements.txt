@@ -3,8 +3,8 @@ numpy
 pandas
 scikit-learn
 xgboost
-shap
+anthropic
 google-generativeai
-# For scientific libraries, Vercel might need conda-build OR we can use
-# the standard 'rdkit-pypi' (though sometimes tricky, so we'll have a fallback)
-rdkit-pypi
+# Note: Heavy scientific libraries like rdkit and shap are 
+# handled via the ToxiGuard 'Heuristic Mode' on serverless platforms 
+# to ensure high-performance cloud deployment.
