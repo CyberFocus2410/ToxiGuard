@@ -198,7 +198,7 @@ const PredictionForm = () => {
                 </span>
             </div>
             
-            <div style={{ marginTop: '2.5rem', display: 'flex', justifyContent: 'space-around', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '1.5rem' }}>
+            <div style={{ marginTop: '2.5rem', display: 'flex', justifyContent: 'space-around', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '1.5rem', paddingBottom: '1.5rem' }}>
                 <div>
                     <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', textTransform: 'uppercase' }}>Confidence</div>
                     <div style={{ fontWeight: '700', fontSize: '1.2rem' }}>{(result.confidence * 100).toFixed(1)}%</div>
@@ -207,6 +207,9 @@ const PredictionForm = () => {
                     <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', textTransform: 'uppercase' }}>Reliability</div>
                     <div style={{ fontWeight: '700', fontSize: '1.2rem', color: 'var(--toxicity-low)' }}>HIGH</div>
                 </div>
+            </div>
+            <div style={{ fontStyle: 'italic', fontSize: '0.75rem', color: 'var(--text-secondary)', borderTop: '1px solid rgba(255,255,255,0.03)', paddingTop: '1rem' }}>
+              Engine: ToxiGuard ML v1.0 & Gemini 1.5 Pro
             </div>
           </div>
 

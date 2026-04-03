@@ -73,7 +73,7 @@ DrugToxicityPredictor/
 ### Environment Prerequisites
 - Python 3.9+
 - Node.js 18+
-- Requirements: `rdkit`, `xgboost`, `shap`, `pandas`, `anthropic`, `recharts`
+- Requirements: `rdkit`, `xgboost`, `shap`, `pandas`, `google-generativeai`, `recharts`
 
 ### 1. ML Model Initialization
 ```bash
@@ -88,10 +88,10 @@ python export_model.py    # Trains and serializes XGBoost model
 ToxiGuard is optimized for **Vercel Serverless Architecture**.
 
 1. **Connect GitHub**: Import your [ToxiGuard Repository](https://github.com/CyberFocus2410/ToxiGuard) to Vercel.
-2. **Environment Variables**: Add your `ANTHROPIC_API_KEY` in the Vercel Dashboard Settings.
+2. **Environment Variables**: Add your `GOOGLE_API_KEY` (Gemini) in the Settings.
 3. **Automatic Deployment**: ToxiGuard's `vercel.json` and `/api` folder will automatically coordinate:
    -   **Frontend**: React static build from `/frontend`.
-   -   **Backend**: Python serverless functions from `/api`.
+   -   **Backend**: Python serverless functions from `/api` using **Gemini 1.5 Pro**.
 
 No separate backend server is required! ⚡
 
